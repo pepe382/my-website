@@ -10,12 +10,18 @@ body {
 }
 
 /* Style for the main content */
-h1 {
-    color: #333;
-    text-align: center;
-    font-size: 2.5rem;
+
+p {
+    margin-bottom: 500px;
 }
 
+.text {
+    white-space: pre-line;
+}
+
+.big {
+    font-size: 1.4em;
+}
 /* Additional styles for better presentation */
 html {
     scroll-behavior: smooth;
