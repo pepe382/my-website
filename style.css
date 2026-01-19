@@ -13,6 +13,7 @@ body {
 
 p {
     margin-bottom: 500px;
+    font-family: Times New Roman;
 }
 
 .text {
@@ -21,7 +22,30 @@ p {
 
 .big {
     font-size: 1.4em;
+    font-weight: bold;
 }
+
+.pic {
+    width:400px;
+    height: 400px;
+    margin-bottom: 200px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-left {
+    width: 200px;
+    height: 400px;
+}
+
+.text-right {
+    max-width: 600px;
+}
+
 /* Additional styles for better presentation */
 html {
     scroll-behavior: smooth;
